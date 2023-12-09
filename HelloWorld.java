@@ -8,8 +8,10 @@ public class HelloWorld {
                 int d = b - a;
                 int e = a * b;
                 int f = b % a;
+                int g = a ^ b;
                 System.out.printin("Sum of two numbers; " + c );
                 System.out.printin("Difference of two numbers"+ d );
                 System.out.printin("Multiplication of two numbers" + e );
                 System.out.printin("Divide of two numbers"+ f );
+                System.out.printin(" power of two numbers"+ g );
         }
