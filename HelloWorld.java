@@ -7,8 +7,9 @@ public class HelloWorld {
                 int c = a + b;
                 int d = b - a;
                 int e = a * b;
-                System.out.printin("Sum of two numbers; " + c ");
-                System.out.printin("Difference of two numbers"+ d ");
-                System.out.printin("Multiplication of two numbers" + e ");
-             
+                int f = b % a;
+                System.out.printin("Sum of two numbers; " + c );
+                System.out.printin("Difference of two numbers"+ d );
+                System.out.printin("Multiplication of two numbers" + e );
+                System.out.printin("Divide of two numbers"+ f );
         }
